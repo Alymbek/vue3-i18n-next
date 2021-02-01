@@ -1,0 +1,52 @@
+{
+	"name": "vue3-i18n-next",
+	"version": "0.2.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"kill-all-node-Windows": "taskkill /f /im node.exe"
+	},
+	"dependencies": {
+		"core-js": "^3.8.3",
+		"vue": "^3.0.5",
+		"vue-i18n": "^9.0.0-rc.4",
+		"vue-router": "^4.0.3",
+		"vuex": "^4.0.0-rc.2"
+	},
+	"devDependencies": {
+		"@intlify/vue-i18n-loader": "^2.0.0-beta.3",
+		"@vue/cli-plugin-babel": "~4.5.11",
+		"@vue/cli-plugin-eslint": "~4.5.11",
+		"@vue/cli-plugin-router": "^4.5.11",
+		"@vue/cli-plugin-vuex": "^4.5.11",
+		"@vue/cli-service": "~4.5.11",
+		"@vue/compiler-sfc": "^3.0.5",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.19.0",
+		"eslint-plugin-vue": "^7.5.0",
+		"pug": "^3.0.0",
+		"pug-plain-loader": "^1.1.0",
+		"var_dump": "^1.0.5"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/vue3-essential",
+			"eslint:recommended"
+		],
+		"parserOptions": {
+			"parser": "babel-eslint"
+		},
+		"rules": {}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
+}
